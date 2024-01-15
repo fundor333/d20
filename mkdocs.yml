@@ -25,3 +25,6 @@ theme:
 
   icon:
     logo: material/book
+
+nav:
+  - Home: index.md
