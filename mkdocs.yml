@@ -1,0 +1,8 @@
+site_name: Personal Docs
+theme:
+  name: material
+  palette:
+    primary: "teal"
+    accent: "red"
+  icon:
+    logo: material/book
