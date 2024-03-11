@@ -28,3 +28,4 @@ theme:
 
 nav:
   - Home: index.md
+  - Problemi Isola: 'isola.md'
