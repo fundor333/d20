@@ -35,32 +35,28 @@ nav:
 
 markdown_extensions:
   - footnotes
-  - smarty
-  - toc:
-      permalink: True
-  - sane_lists
-  - codehilite
+  - admonition
+  - attr_list
+  - md_in_html
+  - abbr
+  - attr_list
 
-  - pymdownx.arithmatex
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
   - pymdownx.details
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.highlight:
-      use_pygments: true
-      linenums: true
-      linenums_style: pymdownx.inline
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
-  - pymdownx.magiclink
-  - pymdownx.mark
-  - pymdownx.smartsymbols
+  - pymdownx.snippets
   - pymdownx.superfences
-  - pymdownx.tasklist:
-      custom_checkbox: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
   - pymdownx.tilde
+
 
 plugins:
   - search:
