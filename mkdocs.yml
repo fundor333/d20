@@ -26,6 +26,9 @@ theme:
   icon:
     logo: material/book
 
+docs_dir: src
+site_dir: docs
+
 nav:
   - Home: index.md
   - Problemi Isola: 'isola.md'
