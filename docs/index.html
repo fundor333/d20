@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-mkdocs" class="md-skip">
+        <a href="#raccolta-della-documentazione" class="md-skip">
           Skip to content
         </a>
       
@@ -279,18 +279,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
+  <a href="#aggiornare-la-documentazione" class="md-nav__link">
     <span class="md-ellipsis">
-      Commands
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    <span class="md-ellipsis">
-      Project layout
+      Aggiornare la documentazione
     </span>
   </a>
   
@@ -324,6 +315,132 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Generici
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Generici
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Altro/Django%2C%20Postgrest%2C%20Nginx%20e%20Gunicorn/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Django, Postgrest, Nginx e Gunicorn
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Altro/Errori%20comuni%20Django/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Errori comuni Django
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Altro/Nginx%20Server%20con%20Fail2Ban/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Nginx Server con Fail2Ban
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Altro/Altro/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Altri casi non mappati
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -351,18 +468,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
+  <a href="#aggiornare-la-documentazione" class="md-nav__link">
     <span class="md-ellipsis">
-      Commands
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    <span class="md-ellipsis">
-      Project layout
+      Aggiornare la documentazione
     </span>
   </a>
   
@@ -383,21 +491,26 @@
                   
 
 
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+<h1 id="raccolta-della-documentazione">Raccolta della documentazione</h1>
+<p>Questo repo, imitando la struttura ad albero pre esistente tra i repo, contiene la documentazione dei vari servizi interni</p>
+<h2 id="aggiornare-la-documentazione">Aggiornare la documentazione</h2>
+<p>Per aggiornare la documentazione basta aggiornare il testo del file corrispondente. Se si vuole aggiungere pagine si va nel file <strong>mkdocs.yml</strong> e si aggiunge il path relativo dal file di config fino al file <strong>.mk</strong></p>
+<h1 id="link-utili">Link Utili</h1>
+<p>Raccolta di link utili per lo sviluppo, debug e mantenimento dei progetti descritti in questo sito di documentazione.</p>
+<h2 id="documentazioni-ufficiali">Documentazioni Ufficiali</h2>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li><a href="https://docs.djangoproject.com/">Documentazione ufficiale Django</a></li>
+<li><a href="https://www.django-rest-framework.org/">Documentazione Django Rest Framework</a></li>
+<li><a href="https://www.debian.org/releases/stable/amd64/release-notes/ch-upgrading.en.html">Debian, update from Debian 9</a></li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<div class="language-text highlight"><pre><span></span><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre></div>
+<h2 id="blog-e-altre-fonti">Blog e altre fonti</h2>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django">Mozzilla Django tutorial</a></li>
+<li><a href="https://www.blog.pythonlibrary.org/">Blog su python conoscito come Mouse VS Python</a></li>
+<li><a href="https://simpleisbetterthancomplex.com/">Blog riferimento per Django</a></li>
+<li><a href="https://realpython.com/">Blog con vari esempi di usi e frammenti Python</a></li>
+<li><a href="https://djangopackages.org/">Raccolta di moduli Django</a></li>
+</ul>
 
 
 
