@@ -1,17 +1,25 @@
-# Welcome to MkDocs
+# Raccolta della documentazione
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Questo repo, imitando la struttura ad albero pre esistente tra i repo, contiene la documentazione dei vari servizi interni
 
-## Commands
+## Aggiornare la documentazione
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Per aggiornare la documentazione basta aggiornare il testo del file corrispondente. Se si vuole aggiungere pagine si va nel file **mkdocs.yml** e si aggiunge il path relativo dal file di config fino al file **.mk**
 
-## Project layout
+# Link Utili
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Raccolta di link utili per lo sviluppo, debug e mantenimento dei progetti descritti in questo sito di documentazione.
+
+## Documentazioni Ufficiali
+
+- [Documentazione ufficiale Django](https://docs.djangoproject.com/)
+- [Documentazione Django Rest Framework](https://www.django-rest-framework.org/)
+- [Debian, update from Debian 9](https://www.debian.org/releases/stable/amd64/release-notes/ch-upgrading.en.html)
+
+## Blog e altre fonti
+
+- [Mozzilla Django tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django)
+- [Blog su python conoscito come Mouse VS Python](https://www.blog.pythonlibrary.org/)
+- [Blog riferimento per Django](https://simpleisbetterthancomplex.com/)
+- [Blog con vari esempi di usi e frammenti Python](https://realpython.com/)
+- [Raccolta di moduli Django](https://djangopackages.org/)
