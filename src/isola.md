@@ -1,5 +1,15 @@
 # Isola che non c'è e altri problemi
 
+## Dispositivi e rete
+
+### Peppone
+
+Canon iPRSvr G250
+
+### Don Camillo
+
+Canon iPR C270/g265 PS
+
 ## Problemi di cassa
 
 !!! question "Azzeramento, fare un giro di chiave"
