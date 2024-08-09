@@ -27,9 +27,6 @@ ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
 
 Se Nginx sta girando correttamente dovresti vedere la landing page:
 
-```
-http://your_server_ip
-```
 
 ## Comandi utili Nginx
 
@@ -69,7 +66,7 @@ Se già li conosci salta questa parte
 Per permettere a Nginx di servire i contenuti, è necessario creare un server block con le direttive corrette.
 Invece di modificare direttamente il file di configurazione predefinito (`/etc/nginx/nginx.conf`), ne creiamo uno nuovo in /etc/nginx/sites-available/miosito.com:
 
-```
+``` 
 server {
         listen 80;
         listen [::]:80;

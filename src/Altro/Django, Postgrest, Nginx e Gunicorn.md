@@ -39,7 +39,7 @@ sudo -u postgres psql
 
 Quindi si lanciano i comandi SQL di creazione
 
-```sql
+``` sql
 CREATE DATABASE myproject;
 CREATE USER myprojectuser WITH PASSWORD 'password';
 ALTER ROLE myprojectuser SET client_encoding TO 'utf8';
@@ -124,7 +124,7 @@ sudo nano /etc/nginx/sites-available/myproject
 
 E bisogna passare al file i config
 
-```
+``` nginx
 server {
     listen 80;
     server_name server_domain_or_IP;
