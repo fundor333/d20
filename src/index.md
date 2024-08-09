@@ -19,7 +19,7 @@ Raccolta di link utili per lo sviluppo, debug e mantenimento dei progetti descri
 ## Blog e altre fonti
 
 - [Mozzilla Django tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django)
-- [Blog su python conoscito come Mouse VS Python](https://www.blog.pythonlibrary.org/)
+- [Blog su python conosciuto come Mouse VS Python](https://www.blog.pythonlibrary.org/)
 - [Blog riferimento per Django](https://simpleisbetterthancomplex.com/)
 - [Blog con vari esempi di usi e frammenti Python](https://realpython.com/)
 - [Raccolta di moduli Django](https://djangopackages.org/)
