@@ -3,25 +3,25 @@ theme:
   name: material
   logo: assets/logo.png
   palette:
-      - media: "(prefers-color-scheme)"
-        toggle:
-          icon: material/weather-night
-          name: Switch to light mode
-      - media: "(prefers-color-scheme: dark)"
-        scheme: slate
-        toggle:
-          icon: material/weather-night
-          name: Switch to light mode
-        primary: "lime"
-        accent: "light green"
-      # Palette toggle for dark mode
-      - media: "(prefers-color-scheme: light)"
-        scheme: default
-        toggle:
-          icon: material/weather-sunny
-          name: Switch to dark mode
-        primary: deep orange
-        accent: red
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: "lime"
+      accent: "light green"
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: deep orange
+      accent: red
 
   icon:
     logo: material/book
@@ -31,12 +31,14 @@ site_dir: docs
 
 nav:
   - Home: index.md
-  - Problemi Isola: 'isola.md'
+  - Problemi Isola: "isola.md"
   - Generici:
       - "Django, Postgrest, Nginx e Gunicorn": "Altro/Django, Postgrest, Nginx e Gunicorn.md"
       - "Errori comuni Django": "Altro/Errori comuni Django.md"
       - "Nginx Server con Fail2Ban": "Altro/Nginx Server con Fail2Ban.md"
       - "Altri casi non mappati": "Altro/Altro.md"
+  - Esempi:
+      - "Python e Google": "Esempi/Google implementation.md"
 
 markdown_extensions:
   - footnotes
@@ -60,7 +62,6 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-
 
 plugins:
   - search:
