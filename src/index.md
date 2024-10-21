@@ -23,3 +23,4 @@ Raccolta di link utili per lo sviluppo, debug e mantenimento dei progetti descri
 - [Blog riferimento per Django](https://simpleisbetterthancomplex.com/)
 - [Blog con vari esempi di usi e frammenti Python](https://realpython.com/)
 - [Raccolta di moduli Django](https://djangopackages.org/)
+- [Wotaku - The Otaku Index](https://wotaku.wiki/)
