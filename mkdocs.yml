@@ -31,12 +31,14 @@ site_dir: docs
 
 nav:
   - Home: index.md
+  - Software:
+      - "Manga App e Software": "Software e App/manga.md"
   - Problemi Isola: "isola.md"
-  - Generici:
-      - "Django, Postgrest, Nginx e Gunicorn": "Altro/Django, Postgrest, Nginx e Gunicorn.md"
-      - "Errori comuni Django": "Altro/Errori comuni Django.md"
-      - "Nginx Server con Fail2Ban": "Altro/Nginx Server con Fail2Ban.md"
-      - "Altri casi non mappati": "Altro/Altro.md"
+  - Server e Backend:
+      - "Django, Postgrest, Nginx e Gunicorn": "Backend/Django, Postgrest, Nginx e Gunicorn.md"
+      - "Errori comuni Django": "Backend/Errori comuni Django.md"
+      - "Nginx Server con Fail2Ban": "Backend/Nginx Server con Fail2Ban.md"
+      - "Altri casi non mappati": "Backend/Altro.md"
   - Esempi:
       - "Python e Google": "Esempi/Google implementation.md"
 
@@ -67,3 +69,5 @@ plugins:
   - search:
       lang: it
   - tags
+  - minify:
+      minify_html: true

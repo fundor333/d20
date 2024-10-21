@@ -8,7 +8,7 @@ run: ## Run the dev
 
 .PHONY: build
 build: ## Run the dev
-	@poetry run mkdocs build
+	@poetry run mkdocs build -c
 	@poetry export --without-hashes --format=requirements.txt > requirements.txt
 
 install: ## Install the package
