@@ -13,6 +13,7 @@ pymdown-extensions = ">=8.0"
 diagrams = "*"
 mkdocs-encryptcontent-plugin = "^3.0.3"
 mkdocs-minify-plugin = "^0.8.0"
+mkdocs-open-in-new-tab = "^1.0.7"
 
 [build-system]
 requires = ["poetry-core"]

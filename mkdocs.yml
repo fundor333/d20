@@ -12,35 +12,46 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
-      primary: "lime"
-      accent: "light green"
+      primary: "light green"
+      accent: "lime"
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
-      primary: deep orange
-      accent: red
+      primary: blue
+      accent: deep orange
 
   icon:
     logo: material/book
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.prune
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
 
 docs_dir: src
 site_dir: docs
 
 nav:
   - Home: index.md
-  - Software:
-      - "Manga App e Software": "Software e App/manga.md"
-  - Problemi Isola: "isola.md"
-  - Server e Backend:
-      - "Django, Postgrest, Nginx e Gunicorn": "Backend/Django, Postgrest, Nginx e Gunicorn.md"
-      - "Errori comuni Django": "Backend/Errori comuni Django.md"
-      - "Nginx Server con Fail2Ban": "Backend/Nginx Server con Fail2Ban.md"
-      - "Altri casi non mappati": "Backend/Altro.md"
-  - Esempi:
-      - "Python e Google": "Esempi/Google implementation.md"
+  - Life:
+      - Software:
+          - "Manga App e Software": "Software e App/manga.md"
+      - Problemi Isola: "isola.md"
+  - Dev:
+      - Server e Backend:
+          - "Django, Postgrest, Nginx e Gunicorn": "Backend/Django, Postgrest, Nginx e Gunicorn.md"
+          - "Errori comuni Django": "Backend/Errori comuni Django.md"
+          - "Nginx Server con Fail2Ban": "Backend/Nginx Server con Fail2Ban.md"
+          - "Altri casi non mappati": "Backend/Altro.md"
+      - Esempi:
+          - "Python e Google": "Esempi/Google implementation.md"
 
 markdown_extensions:
   - footnotes
@@ -71,3 +82,4 @@ plugins:
   - tags
   - minify:
       minify_html: true
+  - open-in-new-tab
