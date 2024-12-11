@@ -34,6 +34,9 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
 
 docs_dir: src
 site_dir: docs
@@ -50,6 +53,7 @@ nav:
           - "Errori comuni Django": "Backend/Errori comuni Django.md"
           - "Nginx Server con Fail2Ban": "Backend/Nginx Server con Fail2Ban.md"
           - "Altri casi non mappati": "Backend/Altro.md"
+          - "FTP server": "Backend/FTP.md"
       - Esempi:
           - "Python e Google": "Esempi/Google implementation.md"
 
@@ -60,13 +64,11 @@ markdown_extensions:
   - md_in_html
   - abbr
 
-  - pymdownx.details
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.highlight:
       anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
+  - pymdownx.details
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
