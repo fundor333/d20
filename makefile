@@ -13,4 +13,6 @@ build: ## Run the dev
 
 install: ## Install the package
 	@poetry install --no-root
+	@poetry run pre-commit install
+	@poetry run pre-commit autoupdate
 
