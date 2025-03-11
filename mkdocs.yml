@@ -47,6 +47,8 @@ nav:
       - Software:
           - "Manga App e Software": "Software e App/manga.md"
       - Problemi Isola: "isola.md"
+      - Games:
+          - "Monster Hunter Wild": "Games/Monster Hunter Wild.md"
   - Dev:
       - Server e Backend:
           - "Django, Postgrest, Nginx e Gunicorn": "Backend/Django, Postgrest, Nginx e Gunicorn.md"
