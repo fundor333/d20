@@ -5,15 +5,15 @@ Gioco della serie Monster Hunter uscito nel 2025, multipiattaforma e con multipl
 ## Il multiplayer
 Ci sono varie modalità di multiplayer:
 
-- ~Razzo SOS~ chiama gente dalla stanza in cui sei in aiuto
-- ~Invito di amici~ chiedi aiuto pre caccia ai tuoi amici per cacciare i mostri
-- ~Annuncio in bacheca~ tu metti l'annuncio e chi risponde partecipa, sempre legato alle stanze
+- __Razzo SOS__ chiama gente dalla stanza in cui sei in aiuto
+- __Invito di amici__ chiedi aiuto pre caccia ai tuoi amici per cacciare i mostri
+- __Annuncio in bacheca__ tu metti l'annuncio e chi risponde partecipa, sempre legato alle stanze
 
 Detto questo le stanze si formano con 3 tipi di persone:
 
-- ~A caso~ i server faranno tutto il lavoro
-- ~Con i gruppi di collegamento~ se ti trovi bene con un massimo di altri 3 giocatori puoi creare un gruppo di collegamento per giocare con i soliti
-- ~Fare parte di una squadra~ Se si fa parte di una squadra è possibile essere in una stanza con un massimo di 50 persone che permettono avere sempre qualcuno con cui giocare ma che comunque conosci o è l'amico di un amico.
+- __A caso__ i server faranno tutto il lavoro
+- __Con i gruppi di collegamento__ se ti trovi bene con un massimo di altri 3 giocatori puoi creare un gruppo di collegamento per giocare con i soliti
+- __Fare parte di una squadra__ Se si fa parte di una squadra è possibile essere in una stanza con un massimo di 50 persone che permettono avere sempre qualcuno con cui giocare ma che comunque conosci o è l'amico di un amico.
 
 
 ## FAQ
