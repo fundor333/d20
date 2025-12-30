@@ -22,6 +22,18 @@ Canon iPR C270/g265 PS
 
         Bisogna semplicemente premere C (CANCELLA) e fare un giro completo PREMENDO IL TASTO CHIAVE ( da AZZERAMENTO fare un giro con CHIAVE e tornare in AZZERAMENTO )
 
+## Problema con il lavello
+
+!!! question "Il lavello perde"
+
+    === "Problema"
+
+        Il lavello della cucina perde. 
+
+    === "Soluzione"
+
+        Bisogna semplicemente stringere meglio in tubo sotto. [Qui video](https://youtube.com/shorts/tvNXAHr0DKI?si=61FSBdADsWLsonQ7)
+
 
 ## Problemi delle stampanti
 
