@@ -9,7 +9,7 @@ run: ## Run the dev
 .PHONY: build
 build: ## Run the dev
 	@uv run mkdocs build -c
-	@uv export --without-hashes --format=requirements.txt > requirements.txt
+	@uv pip freeze > requirements.txt
 
 install: ## Install the package
 	@uv sync
