@@ -4,15 +4,15 @@ help: ## Show this help
 
 .PHONY: run
 run: ## Run the dev
-	@poetry run mkdocs serve --dirtyreload
+	@uv run mkdocs serve --dirtyreload
 
 .PHONY: build
 build: ## Run the dev
-	@poetry run mkdocs build -c
-	@poetry export --without-hashes --format=requirements.txt > requirements.txt
+	@uv run mkdocs build -c
+	@uv export --without-hashes --format=requirements.txt > requirements.txt
 
 install: ## Install the package
-	@poetry install --no-root
-	@poetry run pre-commit install
-	@poetry run pre-commit autoupdate
+	@uv sync
+	@uv run pre-commit install
+	@uv run pre-commit autoupdate
 
