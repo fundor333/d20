@@ -4,15 +4,16 @@ help: ## Show this help
 
 .PHONY: run
 run: ## Run the dev
-	@uv run mkdocs serve --dirtyreload
+	@uv run zensical serve
 
 .PHONY: build
 build: ## Run the dev
-	@uv run mkdocs build -c
+	@uv run zensical build -c
 	@uv pip freeze > requirements.txt
 
 install: ## Install the package
 	@uv sync
-	@uv run pre-commit install
-	@uv run pre-commit autoupdate
 
+
+update: ## Update the package
+	@uv sync --upgrade

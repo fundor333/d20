@@ -25,18 +25,6 @@ theme:
 
   icon:
     logo: material/book
-  features:
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.instant.progress
-    - navigation.path
-    - navigation.prune
-    - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - content.code.copy
-    - content.code.select
-    - content.code.annotate
 
 docs_dir: src
 site_dir: docs
@@ -54,38 +42,9 @@ nav:
           - "Django, Postgrest, Nginx e Gunicorn": "Backend/Django, Postgrest, Nginx e Gunicorn.md"
           - "Errori comuni Django": "Backend/Errori comuni Django.md"
           - "Nginx Server con Fail2Ban": "Backend/Nginx Server con Fail2Ban.md"
-          - "Altri casi non mappati": "Backend/Altro.md"
           - "FTP server": "Backend/FTP.md"
+          - "Altri casi non mappati": "Backend/Altro.md"
       - Sviluppo:
           - "Python Coding": "Dev/Python.md"
-      - Esempi:
+      - Esempi e Snippets:
           - "Python e Google": "Esempi/Google implementation.md"
-
-markdown_extensions:
-  - footnotes
-  - admonition
-  - attr_list
-  - md_in_html
-  - abbr
-
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.details
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
-
-plugins:
-  - search:
-      lang: it
-  - tags
-  - minify:
-      minify_html: true
-  - open-in-new-tab

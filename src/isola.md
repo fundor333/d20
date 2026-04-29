@@ -22,6 +22,18 @@ Canon iPR C270/g265 PS
 
         Bisogna semplicemente premere C (CANCELLA) e fare un giro completo PREMENDO IL TASTO CHIAVE ( da AZZERAMENTO fare un giro con CHIAVE e tornare in AZZERAMENTO )
 
+## Problemi delle stampanti
+
+!!! question "Peppone segnala di essere Offline"
+
+    === "Problema"
+
+        Peppone risulta offline anche dopo aver controllato che i cavi sono tutti stati correttamente collegati e non si riesce ne a stampare nella macchina ne inviare le scansioni fatte a Irine
+
+    === "Soluzione"
+
+        Apparentemente il cavo che esce dal fiery è il problema. Delle volte va staccato e riattaccato per rimettere in rete Peppone
+
 ## Problema con il lavello
 
 !!! question "Il lavello perde"
@@ -34,15 +46,3 @@ Canon iPR C270/g265 PS
 
         Bisogna semplicemente stringere meglio in tubo sotto. [Qui video](https://youtube.com/shorts/tvNXAHr0DKI?si=61FSBdADsWLsonQ7)
 
-
-## Problemi delle stampanti
-
-!!! question "Peppone segnala di essere Offline"
-
-    === "Problema"
-
-        Peppone risulta offline anche dopo aver controllato che i cavi sono tutti stati correttamente collegati e non si riesce ne a stampare nella macchina ne inviare le scansioni fatte a Irine
-
-    === "Soluzione"
-
-        Apparentemente il cavo che esce dal fiery è il problema. Delle volte va staccato e riattaccato per rimettere in rete Peppone
