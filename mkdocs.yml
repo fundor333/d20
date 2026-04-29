@@ -1,6 +1,7 @@
 site_name: F333's Personal Docs
 theme:
   name: material
+  favicon: assets/logo.png
   logo: assets/logo.png
   palette:
     - media: "(prefers-color-scheme)"
@@ -48,3 +49,4 @@ nav:
           - "Python Coding": "Dev/Python.md"
       - Esempi e Snippets:
           - "Python e Google": "Esempi/Google implementation.md"
+          - "Snippets": "Esempi/Snippets.md"

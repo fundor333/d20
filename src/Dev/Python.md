@@ -1,5 +1,21 @@
 # Python
 
+## UV
+
+!!! Question "Da Poetry a UV"
+
+    === "Problema"
+
+        Devo migrare da Poetry a UV
+
+    === "Soluzione"
+
+        Il comando che serve lanciare è 
+    
+        ``` cmd
+        uvx migrate-to-uv
+        ```
+
 ## Poetry
 
 !!! Question "Requirements.txt"
