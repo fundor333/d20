@@ -4,7 +4,7 @@ Questo repo, imitando la struttura ad albero pre esistente tra i repo, contiene 
 
 ## Aggiornare la documentazione
 
-Per aggiornare la documentazione basta aggiornare il testo del file corrispondente. Se si vuole aggiungere pagine si va nel file **mkdocs.yml** e si aggiunge il path relativo dal file di config fino al file **.mk**
+Per aggiornare la documentazione basta aggiornare il testo del file corrispondente. Se si vuole aggiungere pagine si va nel file **mkdocs.yml** e si aggiunge il path relativo dal file di config fino al file **.md**
 
 # Link Utili
 
